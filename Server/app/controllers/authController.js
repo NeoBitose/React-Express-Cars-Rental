@@ -106,7 +106,7 @@ const login = async (req, res) => {
             return res.status(400).json({
                 status: "Failed",
                 message: 'Email is not valid',
-                isSuccess: false,
+                isSuccess: false, 
                 data: null,
             });
         }

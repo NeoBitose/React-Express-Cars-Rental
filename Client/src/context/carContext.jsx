@@ -11,6 +11,7 @@ const CarProvider = ({ children }) => {
     });
 
     const { cars, loading } = useFetchCar(filters);
+    // console.log(cars)
 
     return (
         <CarContext.Provider value={{ filters, setFilters, cars, loading }}>

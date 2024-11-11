@@ -38,7 +38,7 @@ function Navbar() {
                                 <a href="#faq" className="nav-link ms-lg-3 text-dark fw-normal">FAQ</a>
                             </li>
                             <li className="nav-item">
-                                <a href="#" className="nav-link ms-lg-3 text-dark fw-normal" aria-current="page">
+                                <a href="http://localhost:6000/register" className="nav-link ms-lg-3 text-dark fw-normal" aria-current="page">
                                     <button className="btn btn-success">Register</button>
                                 </a>
                             </li>

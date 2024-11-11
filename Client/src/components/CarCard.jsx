@@ -3,7 +3,7 @@ import { CarContext } from '../context/carContext';
 
 function CarCard() {
     const { cars, loading } = useContext(CarContext);  // Akses cars dan loading dari context
-
+    // console.log(cars)
     if (loading) {
         return <div className="loading-container"><div className="loading-spinner"></div></div>;
     }
